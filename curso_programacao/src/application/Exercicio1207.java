@@ -1,6 +1,6 @@
 package application;
 
-import entities.Employee;
+import entities.Employe;
 import entities.OutsourcedEmployee;
 
 import java.util.ArrayList;
@@ -12,7 +12,7 @@ public class Exercicio1207 {
 
 
         Scanner sc = new Scanner(System.in);
-        List<Employee> lista = new ArrayList<>();
+        List<Employe> lista = new ArrayList<>();
 
         System.out.print("Entre a quantidade de empregados: ");
         int n = sc.nextInt();
@@ -36,18 +36,18 @@ public class Exercicio1207 {
             if(ch == 's') {
                 System.out.print("Addicionar Valor: ");
                 Double aditionalCharge = sc.nextDouble();
-                entities.Employee emp = new OutsourcedEmployee(name, hours, valorHora, aditionalCharge);
+                Employe emp = new OutsourcedEmployee(name, hours, valorHora, aditionalCharge);
                 lista.add(emp);
             }
             else{
-                    Employee emp = new Employee(name,hours,valorHora);
+                    Employe emp = new Employe(name,hours,valorHora);
                     lista.add(emp);
                 }
         }
 
         System.out.println();
         System.out.println("Pagamentos: ");
-        for (Employee emp: lista) {
+        for (Employe emp: lista) {
             System.out.println("nome: " + emp.getNome() + " $" + String.format("%.2f", emp.payment()));
 
         }

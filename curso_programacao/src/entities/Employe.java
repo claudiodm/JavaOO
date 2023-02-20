@@ -1,15 +1,15 @@
 package entities;
 
-public class Employee {
+public class Employe {
 
     private String nome;
     private Integer hours;
     private  Double valorPorHora;
 
-    public Employee() {
+    public Employe() {
     }
 
-    public Employee(String nome, Integer hours, Double valorPorHora) {
+    public Employe(String nome, Integer hours, Double valorPorHora) {
         this.nome = nome;
         this.hours = hours;
         this.valorPorHora = valorPorHora;
