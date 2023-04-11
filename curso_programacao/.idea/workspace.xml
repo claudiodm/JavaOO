@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="436e3f57-c7ce-4d8d-8720-a29c2675c014" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Exercicio1207.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Exercicio1207.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Employe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/OutsourcedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/OutsourcedEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +80,11 @@
           <url>file://$PROJECT_DIR$/src/application/Exercicio1207.java</url>
           <line>35</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Curingas1605/Program.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
